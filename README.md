@@ -1,7 +1,7 @@
 This repo offers a runnable React Native project. The setup is carried out following the [official instruction](https://github.com/facebook/react-native/wiki/Building-from-source). Issues found along the way are fixed.
 
-## Known issues (2019-6-6):
-Remove the following line 
+## Additional steps (2019-6-6):
+After sync remove the following line 
 
 ```
 task packageReactNdkLibs(dependsOn: buildReactNdkLib, type: Copy) {
